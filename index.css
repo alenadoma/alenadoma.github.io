@@ -8,7 +8,7 @@ body{
 	background: url(country.png);
 }
 div{
-	margin-top: 40%;
+	margin-top: 100px;
 	margin-left: 30%;
 	margin-bottom: 50px;
 	padding: 30px;
@@ -23,7 +23,6 @@ div{
 	background: rgba(0,0,0,.3);
 	}
 div:hover{
-	margin-top: 20%;
 	color: #aaddff;
 	border: 3px solid #aaddff;
 	box-shadow: 10px 10px 10px #000000;
