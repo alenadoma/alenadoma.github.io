@@ -29,3 +29,6 @@ div:hover{
 	background: rgba(0,0,0,.7);
 	transition: 3s;
 	}
+.developer{
+	text-align: center;
+}
