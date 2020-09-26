@@ -12,23 +12,54 @@ div{
 	margin-left: 30%;
 	margin-bottom: 50px;
 	padding: 30px;
-	color: #ffffff;
 	font-family: Comic Sans MS, Arial;
 	font-size: 20;
-	border: 3px solid #ffffff;
 	border-radius: 30px;
 	width: 500px;
 	font-size: 20;
 	text-shadow: 10px 10px 10px #000000;
-	background: rgba(0,0,0,.3);
-	}
-div:hover{
-	color: #aaddff;
-	border: 3px solid #aaddff;
 	box-shadow: 10px 10px 10px #000000;
-	background: rgba(0,0,0,.7);
-	transition: 3s;
+	animation: color 40s ease infinite;
+	}
+@keyframes color{
+	0%{
+		color: #ffffff;
+		border: 3px solid #ffffff;
+		background: transparent;
+		}
+	25%{
+		color: #aaaaff;
+		border: 3px solid #aaaaff;
+		background: rgba(0, 0, 0, .3);
+		}
+	50%{
+		color: #aaddff;
+		border: 3px solid #aaddff;
+		background: rgba(0, 0, 0, .7);
+		}
+	75%{
+		color: #ffffaa;
+		border: 3px solid #ffffaa;
+		background: rgba(0, 0, 0, .3);
+		}
+	100%{
+		color: #ffffff;
+		border: 3px solid #ffffff;
+		background: transparent;
+		}
 	}
 .developer{
 	text-align: center;
+	width: 19ch;
+	color: #ffffff;
+	font-size: 40px;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: print 10s ease;
+}
+@keyframes print{
+	from{
+		width: 0;
+		}
+	}
 }
