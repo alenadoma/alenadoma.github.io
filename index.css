@@ -3,10 +3,15 @@
 	padding: 0;
 }
 body{
+	width: 100%;
+	height: 100%;
 	background: linear-gradient(#337777, #ffffff);
 }
 div{
 	margin: 70%;
 	color: #ffffff;
 	font-family: Comic Sans MS, Arial;
+	font-size: 2em;
+	border: 3px solid #ffffff;
+	border-radius: 30px;
 }
