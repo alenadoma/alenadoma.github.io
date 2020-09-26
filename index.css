@@ -21,7 +21,6 @@ div{
 	font-size: 20;
 	text-shadow: 10px 10px 10px #000000;
 	background: rgba(0,0,0,.3);
-	overflow: hidden;
 	}
 div:hover{
 	margin-top: 20%;
@@ -29,6 +28,5 @@ div:hover{
 	border: 3px solid #aaddff;
 	box-shadow: 10px 10px 10px #000000;
 	background: rgba(0,0,0,.7);
-	height: 450px;
 	transition: 3s;
 	}
