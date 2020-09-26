@@ -17,19 +17,18 @@ div{
 	font-size: 20;
 	border: 3px solid #ffffff;
 	border-radius: 30px;
-	width: 350px;
-	height: 200px;
+	width: 500px;
 	font-size: 20;
 	text-shadow: 10px 10px 10px #000000;
 	background: rgba(0,0,0,.3);
 	overflow: hidden;
 	}
 div:hover{
+	margin-top: 20%;
 	color: #aaddff;
 	border: 3px solid #aaddff;
 	box-shadow: 10px 10px 10px #000000;
 	background: rgba(0,0,0,.7);
-	width: 500px;
 	height: 450px;
 	transition: 3s;
 	}
