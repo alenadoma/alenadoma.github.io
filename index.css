@@ -17,7 +17,7 @@ div{
 	font-size: 20;
 	border: 3px solid #ffffff;
 	border-radius: 30px;
-	width: 400px;
+	width: 350px;
 	height: 200px;
 	font-size: 20;
 	text-shadow: 10px 10px 10px #000000;
@@ -29,6 +29,7 @@ div:hover{
 	border: 3px solid #aaddff;
 	box-shadow: 10px 10px 10px #000000;
 	margin-top: -250px;
+	width: 500px;
 	height: 450px;
-	transition: 1s;
+	transition: 3s;
 	}
