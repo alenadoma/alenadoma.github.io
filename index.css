@@ -26,7 +26,6 @@ div{
 	}
 div:hover{
 	color: #aaddff;
-	font-size: 25;
 	border: 3px solid #aaddff;
 	box-shadow: 10px 10px 10px #000000;
 	margin-top: -250px;
