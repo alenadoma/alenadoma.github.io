@@ -48,18 +48,3 @@ div{
 		background: rgba(0, 0, 0, .3);
 		}
 	}
-.printed{
-	margin: 0;
-	width: 19ch;
-	color: #ffffff;
-	font-size: 30px;
-	white-space: nowrap;
-	overflow: hidden;
-	animation: print 10s ease;
-}
-@keyframes print{
-	from{
-		width: 0;
-		}
-	}
-}
